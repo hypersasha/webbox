@@ -4,7 +4,7 @@
 
 const web = require('webbox');
 // var wb = new webbox.Builder.Box();
-var platform = new web.Server.Box();
+var platform = new web.Server.ServerBox();
 
 
 platform.createServer(1337);
